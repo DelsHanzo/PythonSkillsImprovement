@@ -1,8 +1,11 @@
 # PythonSkillsImprovement
 Scripts to improve Python skills
 
+TO-DO: Descrivere gli altri algoritmi.
 
-Esempio IdentityMatrix(n = 3):
+
+
+Esempio IdentityMatrix presente nel file https://github.com/DelsHanzo/PythonSkillsImprovement/blob/main/Services/MyMath/Algebra/MatrixSolver.py:
 
 Creiamo una matrice identità 3x3.
 
