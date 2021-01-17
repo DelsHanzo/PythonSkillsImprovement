@@ -4,3 +4,7 @@ def PrintDictionary(dictionary: dict, separator: str = "\n"):
 def PrintMatrix(matrix):
    for r in matrix:
       print(r)
+
+def SepareteContext(nBackSpaces: int = 1):
+   for i in range(nBackSpaces):
+      print("")
