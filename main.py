@@ -2,7 +2,6 @@ from Services.Models import FunctionalityEnum
 from Services.Models.MatrixModels import MatrixDimension
 from FunctionalitySwitch import FunctionalitySwitch
 from Services.MyMath.FunctionSolver import *
-from Utilities.Helpers.EnumHelper import *
 from Utilities import Printer
 from Services.Models.FunctionalityEnum import Functionality
 
