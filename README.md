@@ -1,7 +1,5 @@
 # PythonSkillsImprovement
 Scripts to improve Python skills
-# PythonSkillsImprovement
-Scripts to improve Python skills
 Esempio IdentityMatrix(n = 3):
 
 Creiamo una matrice identità 3x3.
@@ -15,6 +13,8 @@ Una matrice quadrata nulla ma con la diagonale di celle con riga e colonna con l
 
 
 Algoritmo:
+
+[[int(column==row) for column in range(n)] for row in range(n)]
 
 La funzione range(n) genera una sequenza n volte.
 Ho utilizzato una feature interessante di Python, ovvero la Nested List Comprehensions che permette di creare liste e array in modo più coinciso e sintetico.

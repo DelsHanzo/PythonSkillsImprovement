@@ -4,8 +4,7 @@ def TransposeMatrix(matrix):
     return map(list, zip(*matrix))
 
 def IdentityMatrix(n: int):
-    # [[0]*n for _ in range(n)]
-    return [[int(x==y) for x in range(n)] for y in range(n)]
+    return [[int(column==row) for column in range(n)] for row in range(n)]
 
 def IsSquaredMatrix(matrix):
     return all (len (row) == len (matrix) for row in matrix)
@@ -14,7 +13,6 @@ def ZeroMatrix(dimension: MatrixDimension):
     return [[0 for x in range(dimension.columns)] for y in range(dimension.rows)]
 
 def SumMatrix(matrix1, matrix2):
-    #[map(sum, zip(*t)) for t in zip(matrix1, matrix2)]
     return [[matrix1[i][j] + matrix2[i][j]  for j in range(len(matrix1[0]))] for i in range(len(matrix1))]
 
 def ProdMatrix(matrix1, matrix2):
